@@ -173,7 +173,6 @@ string State::inst_log_to_string() const {
   ss << inst_log_line(Ret, "Ret") << endl;
   ss << inst_log_line(BrUncond, "BrUncond") << endl;
   ss << inst_log_line(BrCond, "BrCond") << endl;
-  ss << inst_log_line(BrCond, "BrCond") << endl;
   ss << inst_log_line(Switch, "Switch") << endl;
   ss << inst_log_line(Malloc, "Malloc") << endl;
   ss << inst_log_line(Free, "Free") << endl;
